@@ -49,7 +49,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\t\"workEmail\":\"shail_190901@devrauxx.com\",\n\t\"password\":\"shail123\"\n}"
+					"raw": "{\n\t\"workEmail\":\"shail_190901@shail.com\",\n\t\"password\":\"shail123\"\n}"
 				},
 				"url": {
 					"raw": "localhost:8080/student/login",
