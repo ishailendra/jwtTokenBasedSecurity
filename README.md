@@ -36,7 +36,7 @@ URL:- http://localhost:8080/student/register
 URL:- http://localhost:8080/student/login
 
 {
-	"workEmail":"john_190901@devrauxx.com",
+	"workEmail":"john_190901@shail.com",
 	"password":"shail123"
 }
 ```
