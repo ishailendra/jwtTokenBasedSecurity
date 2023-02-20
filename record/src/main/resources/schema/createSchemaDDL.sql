@@ -5,7 +5,7 @@
 DROP TABLE IF EXISTS `records`.`student_auth`;
 DROP TABLE IF EXISTS `records`.`student`;
 
-CREATE SCHEMA `record`;
+CREATE SCHEMA `records`;
 
 CREATE TABLE IF NOT EXISTS `records`.`student_auth`(
 	
