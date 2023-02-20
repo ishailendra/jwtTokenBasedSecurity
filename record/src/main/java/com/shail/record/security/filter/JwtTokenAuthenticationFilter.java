@@ -43,7 +43,8 @@ public class JwtTokenAuthenticationFilter extends OncePerRequestFilter{
 			throws ServletException, IOException {
 		logger.info("JwtTokenAuthenticationFilter doFilterInternal");
 		String token = tokenHelper.getToken(request);
-		if(!Objects.isNull(token)) {
+		String uri = request.getRequestURI();
+		if(!Objects.isNull(token) && !uri.contains("login") && !uri.contains("register")) {
 			try {
 				String username = tokenHelper.getUsernameFromToken(token);
 				if(!Objects.isNull(username) && tokenHelper.isValidToken(token)) {
